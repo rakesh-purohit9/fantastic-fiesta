@@ -22,7 +22,7 @@ export const getFollowers = ({
   path = {},
 } = {}) => {
   return defaultAxios({
-    url: `https://api.twitter.com/2/users/462967164/followers`,
+    url: `https://cors-anywhere.herokuapp.com/https://api.twitter.com/2/users/462967164/followers`,
     method: "get",
     params,
     headers,
